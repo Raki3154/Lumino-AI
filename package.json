@@ -1,0 +1,45 @@
+{
+  "name": "lumino",
+  "main": "node_modules/expo/AppEntry.js",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "expo start",
+    "reset-project": "node ./scripts/reset-project.js",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "lint": "expo lint"
+  },
+  "dependencies": {
+    "@expo-google-fonts/albert-sans": "^0.4.2",
+    "@expo-google-fonts/dancing-script": "^0.4.2",
+    "@expo-google-fonts/dm-sans": "^0.4.2",
+    "@expo-google-fonts/inter": "^0.4.2",
+    "@expo-google-fonts/poppins": "^0.4.1",
+    "@expo-google-fonts/urbanist": "^0.4.2",
+    "@expo/metro-runtime": "~55.0.10",
+    "@expo/vector-icons": "^15.0.3",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@react-navigation/native": "^7.2.2",
+    "@react-navigation/native-stack": "^7.14.12",
+    "expo": "^55.0.18",
+    "expo-font": "~55.0.6",
+    "firebase": "^12.12.1",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-native": "0.83.6",
+    "react-native-gesture-handler": "~2.30.0",
+    "react-native-reanimated": "4.2.1",
+    "react-native-safe-area-context": "~5.6.0",
+    "react-native-screens": "~4.23.0",
+    "react-native-web": "^0.21.0",
+    "react-native-worklets": "^0.7.4"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.10",
+    "eslint": "^9.25.0",
+    "eslint-config-expo": "~55.0.0",
+    "typescript": "~5.9.2"
+  },
+  "private": true
+}
